@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, footer {
+    padding: 0 10px; /* På h.s. og v.s. */
+}
+
+main {
+    background-color: #039be5;
+    flex: 1;
+}
+
+.midstilt {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+main section {
+    background-color: azure;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+header nav {
+    background-color: rosybrown;
+}
+
+
+footer section {
+    background-color: aqua;
+}
